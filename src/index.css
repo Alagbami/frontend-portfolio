@@ -5,28 +5,6 @@
 
   --primary-color: #edf2f8;
   --secondary-color: #313bac;
-  --black-color: white;
-  --lightGray-color: #e4e4e4;
-  --gray-color: white;
-  --brown-color: #46364a;
-  --white-color: #ffffff;
-}
-
-/* i change the entire background to black here which the black 
-background will overcome other container background */
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
-  background-color: #030303; 
-} 
-/*
-:root {
-  --font-base: "DM Sans", sans-serif;
-
-  --primary-color: #edf2f8;
-  --secondary-color: #313bac;
   --black-color: #030303;
   --lightGray-color: #e4e4e4;
   --gray-color: #6b7688;
@@ -39,4 +17,4 @@ background will overcome other container background */
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-}*/
+}
