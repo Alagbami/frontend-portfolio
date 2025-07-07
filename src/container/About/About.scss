@@ -10,11 +10,11 @@
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 2rem;
-    background-color: black;
+    background-color: var(--primary-color);
   }
   
   .app__profile-item {
-    width: 190px;
+    width: 290px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -26,6 +26,12 @@
       height: 170px;
       border-radius: 15px;
       object-fit: cover;
+    }
+
+    h2,
+    p {
+      color: black;
+      margin-top: 1rem;
     }
   
     @media screen and (min-width: 2000px) {
